@@ -1,0 +1,14 @@
+MUSIC REHEARSAL MANAGER — VERSIÓN iPAD
+
+1. Sube TODOS los archivos de esta carpeta, juntos y sin cambiar nombres, a una carpeta de tu alojamiento web con HTTPS (por ejemplo, https://tudominio.es/ensayos/). No necesitas Node.js ni instalar componentes.
+2. En iPad, abre la dirección con Safari estando conectado a Internet.
+3. Safari → Compartir → Añadir a pantalla de inicio → Añadir. Abre el icono creado al menos una vez con Internet.
+4. Después la aplicación funciona sin conexión, con datos en almacenamiento LOCAL del iPad.
+5. Para pasar los datos al PC: Configuración → Compartir copia JSON (iPad) → Guardar en Archivos; envía ese archivo al PC por AirDrop, cable, correo o iCloud Drive. En la versión del PC: Configuración → Importar copia JSON.
+6. Imprescindible: exporta una copia semanal. iPadOS puede eliminar almacenamiento de webs con poca actividad o al borrar datos de Safari. No desinstales la PWA sin copia.
+
+NOTAS:
+- Esta versión no sincroniza los datos ni los envía al alojamiento web. El servidor solo entrega los archivos de la aplicación.
+- Si empiezas con datos en el ordenador: exporta primero una copia JSON desde la aplicación del ordenador y luego impórtala desde Configuración del iPad.
+- Abrir el archivo HTML desde la app Archivos no equivale a instalar una PWA; para uso fiable debes publicarla por HTTPS.
+- Cada origen web (dominio/subdominio y protocolo) y cada instalación puede tener almacenamiento independiente. Guarda siempre copias JSON.
